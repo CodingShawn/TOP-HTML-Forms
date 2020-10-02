@@ -213,6 +213,12 @@ input {
     border-radius: 3px;
 }
 
+input:focus {
+    border: 1px solid #52A8EC;
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
 .sign-up-fields {
     height: 95px;
 }
